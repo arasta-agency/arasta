@@ -7,7 +7,7 @@ import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { Switch } from '@headlessui/react'
 
 //icons
-import { RiInstagramFill, RiFacebookFill, RiTwitterFill, RiYoutubeFill,RiTiktokFill,RiWhatsappFill } from 'react-icons/ri';
+import { RiInstagramFill, RiFacebookFill,RiTiktokFill,RiWhatsappFill } from 'react-icons/ri';
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
