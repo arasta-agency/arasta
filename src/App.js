@@ -9,6 +9,7 @@ import BlogPost from './components/BlogPost';
 import Company from './pages/Company';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 import './App.css';
 import ScrollToTop from './pages/ScrollToTop';
@@ -28,6 +29,7 @@ function App() {
         <Route path='*' element={<Error />} />
       </Routes>
       <Footer />
+      <SpeedInsights />
     </Router>
   )
 }
