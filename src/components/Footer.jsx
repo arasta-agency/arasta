@@ -7,7 +7,7 @@ import { HashLink } from 'react-router-hash-link'
 import brandimg from '../assets/arastaMornusen.png'
 
 //icons
-import { RiInstagramFill, RiFacebookFill, RiTwitterFill, RiYoutubeFill,RiTiktokFill,RiWhatsappFill } from 'react-icons/ri';
+import { RiInstagramFill, RiFacebookFill,RiTiktokFill,RiWhatsappFill } from 'react-icons/ri';
 
 const Footer = () => {
     return (
