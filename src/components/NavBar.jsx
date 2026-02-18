@@ -12,6 +12,8 @@ import {
 import { ChevronDownIcon, QueueListIcon } from '@heroicons/react/20/solid'
 import { FaAngleRight, FaArrowRight } from 'react-icons/fa'
 
+
+
 //images
 import brandicon from '../assets/arastaMornusen.png'
 import brandiconmd from '../assets/arastaMor.png'
@@ -136,6 +138,7 @@ const NavBar = () => {
                         <Link to="/about" className="text-sm font-semibold leading-6 text-gray-700 hover:text-gray-500 duration-300 transition-colors">
                             Company
                         </Link>
+                        
                     </Popover.Group>
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                         <Link
@@ -145,7 +148,17 @@ const NavBar = () => {
                             Connect <FaAngleRight size={15} />
                         </Link>
                     </div>
+                    
                 </nav>
+                <nav className="flex items-center justify-between p-6 lg:px-8">
+                    {/* navbar content here */}
+                    
+                    
+
+                    </nav>
+
+                   
+
 
                 {/* Responsive */}
 
@@ -237,6 +250,7 @@ const NavBar = () => {
                                 </div>
                             </div>
                         </div>
+                        
                     </Dialog.Panel>
                 </Dialog>
             </header>

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 //icons
 import { FaArrowRight } from 'react-icons/fa'
+import kurdistanMap from '../assets/FlagKurdistan.png'
 
 const Header = () => {
   return (
@@ -49,6 +50,29 @@ const Header = () => {
                 Our Programs<FaArrowRight />
               </Link>
             </div>
+            <nav className="flex items-center justify-between p-6 lg:px-8">
+  {/* navbar stays exactly the same */}
+</nav>
+
+{/* Glowing Kurdistan Section */}
+<div className="relative flex flex-col items-center mt-6">
+  {/* Glow background */}
+  <div className="absolute inset-0 blur-3xl opacity-40 bg-gradient-to-r from-red-500 via-yellow-400 to-green-500 rounded-full w-40 h-40" />
+
+  {/* Content */}
+  <div className="relative flex flex-col items-center bg-white/70 backdrop-blur-md px-6 py-4 rounded-2xl shadow-lg">
+    <img
+      src={kurdistanMap}
+      alt="Kurdistan Map"
+      className="h-20 w-auto drop-shadow-xl"
+    />
+
+    <span className="mt-2 text-sm font-bold tracking-wide bg-gradient-to-r from-red-600 via-yellow-500 to-green-600 bg-clip-text text-transparent">
+      2 + 2 = 1
+    </span>
+  </div>
+</div>
+
           </div>
         </div>
         <div
