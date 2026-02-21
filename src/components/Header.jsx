@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 //icons
 import { FaArrowRight } from 'react-icons/fa'
 import kurdistanMap from '../assets/FlagKurdistan.png'
+import linktreeQRR from "../assets/arasta.agency.png";
 
 const Header = () => {
   return (
@@ -72,6 +73,33 @@ const Header = () => {
     </span>
   </div>
 </div>
+
+            <div className="mt-12 flex flex-col items-center">
+
+              <a
+                href="https://linktr.ee/arasta.agency"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lg font-bold text-green-600 hover:text-green-700 transition"
+              >
+                🌳 Visit Our Linktree
+              </a>
+
+              {/* QR CLICKABLE */}
+              <a
+                href="https://linktr.ee/arasta.agency"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 bg-white p-5 rounded-2xl shadow-xl hover:shadow-2xl hover:scale-105 transition duration-300 cursor-pointer"
+              >
+                <img
+                  src={linktreeQRR}
+                  alt="Linktree QR Code"
+                  className="h-32 w-auto drop-shadow-xl"
+                />
+              </a>
+
+            </div>
 
           </div>
         </div>
