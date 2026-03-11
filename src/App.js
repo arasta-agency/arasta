@@ -9,6 +9,7 @@ import BlogPost from './components/BlogPost';
 import Company from './pages/Company';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 
 import './App.css';
 import ScrollToTop from './pages/ScrollToTop';
@@ -28,6 +29,7 @@ function App() {
         <Route path='*' element={<Error />} />
       </Routes>
       <Footer />
+      <Analytics />
     </Router>
   )
 }
